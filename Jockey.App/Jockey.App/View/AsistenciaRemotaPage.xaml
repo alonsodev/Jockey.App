@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jockey.App.View.AsistenciaRemotaPage"
+             Title="Asistencia">
+    <ScrollView>
+        <StackLayout StyleClass="SLMain">
+            <Image Source="logojokey01.png" HorizontalOptions="CenterAndExpand" ></Image>
+            <Frame CornerRadius="10"  
+       Padding="0" Margin="0,20,0,0">
+                <StackLayout>
+                    <StackLayout x:Name="ButtonStackLayout" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="ASISTENCIA MÉDICA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="18" Text="REMOTA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  Margin="0,40,0,0" 
+       Padding="0" x:Name="btnRecordatorio">
+                <StackLayout>
+                    <StackLayout x:Name="bslRecordatorio" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="RECORDATORIO DE TOMA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="18" Text="DE MEDICAMENTOS" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biRecordatorio" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  
+       Padding="0" x:Name="btnAsistencia">
+                <StackLayout>
+                    <StackLayout x:Name="bslAsistencia" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="ASISTENCIA MÉDICA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="18" Text="TELEFONICA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biAsistencia" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

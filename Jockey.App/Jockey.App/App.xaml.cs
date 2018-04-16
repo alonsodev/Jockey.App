@@ -13,7 +13,7 @@ namespace Jockey.App
 		{
 			InitializeComponent();
 
-			MainPage = new Jockey.App.MainPage();
+			MainPage = new NavigationPage(new Jockey.App.View.MainPage());
 		}
 
 		protected override void OnStart ()

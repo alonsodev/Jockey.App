@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jockey.App.View.NosComunicaremosPage"
+             Title="Finalizado">
+    <StackLayout Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            <Image Margin="0,20,0,0" Source="logojokey01.png" HorizontalOptions="CenterAndExpand" ></Image>
+        </StackLayout>
+
+        <StackLayout Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+            <Frame CornerRadius="10"
+           Padding="0" Margin="20,0,20,0" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <StackLayout>
+                    <StackLayout x:Name="ButtonStackLayout" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,40,10,40" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="20" Text="NOS COMUNICAREMOS" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="20" Text="EN BREVE" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

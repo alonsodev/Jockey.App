@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jockey.App.View.FormularioDatosPage"
+             Title="Datos">
+    <ScrollView>
+        <StackLayout StyleClass="SLMain">
+            <Image Source="logojokey01.png" HorizontalOptions="CenterAndExpand" ></Image>
+            <Frame CornerRadius="10"  
+       Padding="0" Margin="0,20,0,0">
+                <StackLayout>
+                    <StackLayout x:Name="ButtonStackLayout" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="DATOS DEL BENEFICIARIO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Entry x:Name="txtNombreCompleto" Placeholder="Nombre completo" />
+            <Entry x:Name="txtDocIdentidad" Placeholder="Documento de identidad" />
+            <DatePicker x:Name="txtFecNacimiento" />
+            <Entry x:Name="txtNoContacto" Placeholder="No. de contacto" />
+            <Entry x:Name="txtDireccion" Placeholder="Dirección" />
+            <Entry x:Name="txtDistrito" Placeholder="Distrito" />
+            <Entry x:Name="txtCorreoElectronico" Placeholder="Correo electrónico" />
+            <Frame CornerRadius="10"  
+       Padding="0" Margin="0,20,0,0" x:Name="btnSolicitarAsis">
+                <StackLayout>
+                    <StackLayout x:Name="bslSolicitarAsis" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="SOLICITAR ASISTENCIA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

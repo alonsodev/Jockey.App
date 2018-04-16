@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jockey.App.View.AsistenciaMedicaDomPage"
+             Title="Asistencia">
+    <ScrollView>
+        <StackLayout StyleClass="SLMain">
+            <Image Source="logojokey01.png" HorizontalOptions="CenterAndExpand" ></Image>
+            <Frame CornerRadius="10"  
+       Padding="0" Margin="0,20,0,0">
+                <StackLayout>
+                    <StackLayout x:Name="ButtonStackLayout" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="ASISTENCIA MÉDICA A" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="18" Text="DOMICILIO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  Margin="0,40,0,0" 
+       Padding="0" x:Name="btnAmbulancia">
+                <StackLayout>
+                    <StackLayout x:Name="bslAmbulancia" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="AMBULANCIA" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biAmbulancia" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  
+       Padding="0" x:Name="btnMedicoDomicilio">
+                <StackLayout>
+                    <StackLayout x:Name="bslMedicoDomicilio" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="MÉDICO A DOMICILIO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biMedicoDomicilio" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  
+       Padding="0" x:Name="btnEnfermeraDomicilio">
+                <StackLayout>
+                    <StackLayout x:Name="bslEnfermeraDomicilio" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="ENFERMERA A DOMICILIO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biEnfermeraDomicilio" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  
+       Padding="0" x:Name="btnChoferReemplazo">
+                <StackLayout>
+                    <StackLayout x:Name="bslChoferReemplazo" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="CHOFER DE REEMPLAZO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biChoferReemplazo" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10"  
+       Padding="0" x:Name="btnDespistajeEmbarazo">
+                <StackLayout>
+                    <StackLayout x:Name="bslDespistajeEmbarazo" BackgroundColor="{StaticResource DarkBackgroundColor}" Orientation="Horizontal"  Padding="10,10,10,10" >
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label FontSize="18" Text="DESPISTAJE DE" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label FontSize="18" Text="EMBARAZO" FontAttributes="Bold" TextColor="{StaticResource SecondaryTextColor}" VerticalOptions="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                        <Image x:Name="biDespistajeEmbarazo" WidthRequest="24" Source="arrow_next.png" VerticalOptions="Center" HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
