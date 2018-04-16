@@ -111,6 +111,10 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\icon2.png" />
+    <BundleResource Include="Resources\arrow_next.png" />
+    <BundleResource Include="Resources\logojokey01.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -124,7 +128,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Jockey.App\Jockey.App.csproj">
-      <Project>{342D4CC2-B96F-4BC1-984A-F1172474A798}</Project>
+      <Project>{23C259DC-763F-4586-9B0A-C0A822A2B43A}</Project>
       <Name>Jockey.App</Name>
     </ProjectReference>
   </ItemGroup>
